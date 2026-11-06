@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Contacta con BIO-Membrana para consultas sobre cosmética natural, ingredientes y productos."
+    >
+    <title>Contacto | BIO-Membrana</title>
+    <link rel="icon" href="../dist/img/icono.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../dist/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../dist/css/style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <div class="announcement-bar">
+      Cosmética botánica hecha a mano <span aria-hidden="true">·</span> Envío gratis desde S/ 180
+    </div>
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg site-navbar" aria-label="Navegación principal">
+        <div class="container">
+          <a class="navbar-brand brand-lockup" href="../index.html" aria-label="BIO-Membrana, inicio">
+            <span class="brand-mark" aria-hidden="true">b</span>
+            <span>
+              <span class="brand-name">BIO-Membrana</span>
+              <span class="brand-caption">Cosmética natural</span>
+            </span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menuContacto"
+            aria-controls="menuContacto"
+            aria-expanded="false"
+            aria-label="Abrir menú de navegación"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menuContacto">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item"><a class="nav-link" href="../index.html#novedades">Novedades</a></li>
+              <li class="nav-item"><a class="nav-link" href="acerca-de.html">Nuestra esencia</a></li>
+              <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+              <li class="nav-item"><a class="nav-link active" href="contacto.html" aria-current="page">Contacto</a></li>
+            </ul>
+            <a class="btn btn-outline-bio header-cta" href="productos.html">Explorar tienda</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="subpage-hero contact-hero">
+        <div class="container subpage-hero-content">
+          <p class="eyebrow">Estamos para escucharte</p>
+          <h1>Hablemos de tu próximo ritual.</h1>
+          <p>
+            Déjanos tu consulta sobre productos, ingredientes o cuidado de la piel.
+          </p>
+        </div>
+      </section>
+
+      <section class="section-block contact-section">
+        <div class="container">
+          <div class="contact-intro">
+            <p class="eyebrow">Contacto</p>
+            <h2 class="subpage-heading">¿En qué podemos ayudarte?</h2>
+            <p class="subpage-copy">
+              Cuéntanos qué estás buscando y comparte tus dudas. Nuestro equipo podrá orientarte sobre la línea BIO-Membrana.
+            </p>
+            <div class="contact-highlights">
+              <div class="contact-note">
+                <span class="contact-note-icon" aria-hidden="true">✿</span>
+                <div>
+                  <strong>Atención cercana</strong>
+                  <p>Consultas sobre fórmulas, productos y rutinas de cuidado.</p>
+                </div>
+              </div>
+              <div class="contact-note">
+                <span class="contact-note-icon" aria-hidden="true">⌂</span>
+                <div>
+                  <strong>Desde Cañete</strong>
+                  <p>Una propuesta local de cosmética artesanal y circular.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row g-4 align-items-stretch">
+            <div class="col-12 col-lg-7">
+              <form id="contactForm" class="contact-form needs-validation h-100" novalidate>
+                <h2>Envíanos una consulta</h2>
+                <p class="form-intro">Completa tus datos y cuéntanos cómo podemos ayudarte.</p>
+                <div class="row g-3">
+                  <div class="col-12 col-md-6">
+                    <label class="form-label" for="nombre">Nombres</label>
+                    <input class="form-control" id="nombre" name="nombre" type="text" autocomplete="given-name" required>
+                    <div class="invalid-feedback">Ingresa tu nombre.</div>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <label class="form-label" for="apellido">Apellidos</label>
+                    <input class="form-control" id="apellido" name="apellido" type="text" autocomplete="family-name" required>
+                    <div class="invalid-feedback">Ingresa tus apellidos.</div>
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label" for="correo">Correo electrónico</label>
+                    <input class="form-control" id="correo" name="correo" type="email" autocomplete="email" placeholder="nombre@correo.com" required>
+                    <div class="invalid-feedback">Ingresa un correo electrónico válido.</div>
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label" for="telefono">Teléfono <span class="optional-label">(opcional)</span></label>
+                    <input class="form-control" id="telefono" name="telefono" type="tel" autocomplete="tel" inputmode="tel" pattern="[0-9+() -]{7,20}" placeholder="+51 900 000 000">
+                    <div class="invalid-feedback">Revisa el formato del número de teléfono.</div>
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label" for="solicitud">Tu consulta</label>
+                    <textarea class="form-control" id="solicitud" name="solicitud" rows="5" required></textarea>
+                    <div class="invalid-feedback">Escribe tu consulta.</div>
+                  </div>
+                  <div class="col-12">
+                    <p class="form-demo-note">
+                      Este formulario es una demostración y todavía no está conectado a un servicio de envío.
+                    </p>
+                    <div id="contactFormStatus" class="alert alert-info d-none" role="status" aria-live="polite"></div>
+                    <button class="btn btn-bio" type="submit">Validar consulta <span aria-hidden="true">→</span></button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-12 col-lg-5">
+              <aside class="contact-map-card h-100" aria-labelledby="mapaTitulo">
+                <div class="contact-map-heading">
+                  <div>
+                    <p class="eyebrow">Encuéntranos</p>
+                    <h2 id="mapaTitulo">Estamos en Cañete</h2>
+                  </div>
+                  <span class="contact-map-icon" aria-hidden="true">⌖</span>
+                </div>
+                <div
+                  class="map-placeholder"
+                  role="img"
+                  aria-label="Espacio reservado para insertar el mapa con la dirección exacta de BIO-Membrana en Cañete"
+                >
+                  <span class="map-road map-road-one" aria-hidden="true"></span>
+                  <span class="map-road map-road-two" aria-hidden="true"></span>
+                  <span class="map-road map-road-three" aria-hidden="true"></span>
+                  <span class="map-park map-park-one" aria-hidden="true"></span>
+                  <span class="map-park map-park-two" aria-hidden="true"></span>
+                  <span class="map-pin" aria-hidden="true"><span>✿</span></span>
+                  <span class="map-place-label">Cañete, Lima</span>
+                  <span class="map-placeholder-caption">Mapa por insertar</span>
+                </div>
+                <p class="map-note">
+                  Aquí se puede insertar un mapa cuando esté confirmada la dirección exacta.
+                </p>
+                <a
+                  class="text-action map-link"
+                  href="https://www.google.com/maps/search/?api=1&amp;query=Canete%2C%20Lima%2C%20Peru"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >Ver Cañete en Google Maps <span aria-hidden="true">↗</span></a>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row gy-4 align-items-center">
+          <div class="col-12 col-md-5">
+            <a class="footer-brand" href="../index.html">BIO-Membrana</a>
+            <p>Cosmética botánica creada artesanalmente para acompañar tu piel.</p>
+          </div>
+          <div class="col-12 col-md-4">
+            <nav class="footer-links" aria-label="Enlaces del pie de página">
+              <a href="productos.html">Productos</a>
+              <a href="acerca-de.html">Acerca de</a>
+              <a href="contacto.html" aria-current="page">Contacto</a>
+            </nav>
+          </div>
+          <div class="col-12 col-md-3 footer-social">
+            <span>Síguenos en</span>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 BIO-Membrana. Todos los derechos reservados.</span>
+          <a href="#contenido">Volver arriba ↑</a>
+        </div>
+      </div>
+    </footer>
+    <details class="social-menu">
+      <summary aria-label="Abrir o cerrar el menú de redes sociales">
+        <span class="social-menu-toggle-icon" aria-hidden="true">+</span>
+      </summary>
+      <nav class="social-menu-links" aria-label="Redes sociales">
+        <a class="social-menu-link" href="https://wa.me/?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20BIO-Membrana" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" data-label="WhatsApp">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2a9.9 9.9 0 0 0-8.45 15.06L2.3 21.7l4.75-1.25A9.9 9.9 0 1 0 12.04 2Zm0 17.98a8.03 8.03 0 0 1-4.1-1.12l-.3-.18-2.82.74.75-2.75-.2-.3a8.06 8.06 0 1 1 6.67 3.61Zm4.42-6.04c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06-.24-.12-1.01-.37-1.92-1.18-.71-.63-1.19-1.42-1.33-1.66-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.47-.4-.4-.54-.41h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2s.86 2.32.98 2.48c.12.16 1.69 2.58 4.1 3.62.57.25 1.02.4 1.37.5.58.18 1.1.15 1.51.09.46-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28Z"/></svg>
+          <span class="visually-hidden">WhatsApp</span>
+        </a>
+        <a class="social-menu-link" href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X" data-label="X">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.9 1.15h3.68l-8.04 9.19L24 22.85h-7.4l-5.8-7.58-6.64 7.58H.47l8.6-9.83L0 1.15h7.6l5.24 6.93Zm-1.29 19.65h2.04L6.49 3.24H4.3Z"/></svg>
+          <span class="visually-hidden">X</span>
+        </a>
+        <a class="social-menu-link" href="https://facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" data-label="Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8.2h2.76l.41-3.2H13.5V7.56c0-.93.26-1.56 1.59-1.56h1.7V3.14c-.3-.04-1.35-.14-2.57-.14-2.55 0-4.3 1.55-4.3 4.4v2.2H7.04v3.2h2.88V21Z"/></svg>
+          <span class="visually-hidden">Facebook</span>
+        </a>
+        <a class="social-menu-link" href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" data-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4Zm4.5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm5.25-3.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5Z"/></svg>
+          <span class="visually-hidden">Instagram</span>
+        </a>
+      </nav>
+    </details>
+    <script src="../dist/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../dist/js/main.js"></script>
+  </body>
+</html>
